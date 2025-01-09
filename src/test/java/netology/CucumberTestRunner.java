@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources",
-        glue = "ru.netology.steps",
+        glue = "netology.steps",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         plugin = {"pretty", "html:build/reports/cucumber-html-report"},
         monochrome = true
